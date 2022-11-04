@@ -1,0 +1,66 @@
+*{
+    font-family: Cotford, Georgia, Times, Serif;
+}
+
+
+body{
+    background-image: url("../images/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+li{
+    line-height: 3.0;
+    font-weight: 500;
+}
+
+#container{
+    background-color: #fff;
+    text-align: center;
+    margin: 9% auto;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    line-height: 1.5;
+    border: thick double rgba(34,139,34, 0.8);
+    border-style: dashed;
+}
+
+.icon-style {
+    color: rgb(0,100,0);
+    font-size: 25px;
+    padding-bottom: 1.0rem;
+    }
+
+.icon-style:hover{
+    color: #000000;
+} 
+
+.exclamation:hover{
+    color: #fc0808;
+}
